@@ -16,8 +16,8 @@ sudo ln -sf "$PWD/scripts/tmux-sessionizer" /usr/local/bin/
 packages=(
 	kubectl
 	tektoncd-cli
+	helm
 	fzf
-	nvm
 	kubectx
 	derailed/k9s/k9s
 	fluxcd/tap/flux
