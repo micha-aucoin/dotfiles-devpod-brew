@@ -21,6 +21,7 @@ packages=(
 	kubectx
 	derailed/k9s/k9s
 	fluxcd/tap/flux
+	neovim
 	micromamba
 )
 
