@@ -6,7 +6,7 @@ curl -o "$XDG_CONFIG_HOME"/kube-ps1.sh https://raw.githubusercontent.com/jonmosc
 curl -o "$XDG_CONFIG_HOME"/tmux-completion https://raw.githubusercontent.com/Bash-it/bash-it/refs/heads/master/completion/available/tmux.completion.bash
 
 
-ln -sf "$PWD/kickstart.nvim" "$XDG_CONFIG_HOME"/nvim
+ln -sf "$PWD/nvim" "$XDG_CONFIG_HOME"/nvim
 ln -sf "$PWD/.bash_aliases" "$HOME"/.bash_aliases
 ln -sf "$PWD/.bashrc" "$HOME"/.bashrc
 ln -sf "$PWD/.inputrc" "$HOME"/.inputrc
@@ -22,6 +22,7 @@ packages=(
 	derailed/k9s/k9s
 	fluxcd/tap/flux
 	neovim
+	tmux
 	micromamba
 )
 
