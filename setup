@@ -15,6 +15,7 @@ sudo ln -sf "$PWD/scripts/tmux-sessionizer" /usr/local/bin/
 
 packages=(
 	kubectl
+	kubeseal
 	tektoncd-cli
 	helm
 	fzf
